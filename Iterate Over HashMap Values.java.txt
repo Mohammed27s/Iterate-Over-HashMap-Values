@@ -1,0 +1,32 @@
+
+
+
+//Iterate Over HashMap Values
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class IterateOverHashMap {
+
+    public static void main(String[] args){
+
+
+        Map<String, Integer> iterateAgeMap = new HashMap<>();
+
+        iterateAgeMap.put("Noor", 50);
+        iterateAgeMap.put("John", 46);
+        iterateAgeMap.put("Fatma", 90);
+
+
+        for(Map.Entry<String, Integer> entry : iterateAgeMap.entrySet()){
+
+
+            System.out.println(entry.getKey()+" with age "+entry.getValue());
+        }
+
+
+
+
+
+    }
+}
